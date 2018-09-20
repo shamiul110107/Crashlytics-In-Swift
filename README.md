@@ -11,6 +11,8 @@ target 'CrashLyticsSwift' do
   pod 'Crashlytics', '~> 3.10.5'
 
 end
-## declare an array with four items
+### Declare an array with four items
   var shoppingList = ["catfish", "water", "tulips", "blue paint"]
-## try to access 10th item from array and its will be crashed
+### Try to access 10th item from array and its will be crashed
+  print(shoppingList[10])
+
