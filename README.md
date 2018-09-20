@@ -5,7 +5,9 @@ target 'CrashLyticsSwift' do
 
   use_frameworks!
   pod 'Firebase/Core'
+  
   pod 'Fabric', '~> 1.7.9'
+  
   pod 'Crashlytics', '~> 3.10.5'
 
 end
