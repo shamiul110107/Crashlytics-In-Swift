@@ -25,7 +25,7 @@ The frameworks you added include a run script that initializes Crashlytics. Add 
 4. Click + Add a new build phase, and select New Run Script Phase.
 5. Add the following line to the Type a script... text box:
 
- "${PODS_ROOT}/Fabric/run"
+  "${PODS_ROOT}/Fabric/run"
  
-Xcode 10 only: Add your app's built Info.plist location to the Build Phase's Input Files field:
-  $(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)
+6. Xcode 10 only: Add your app's built Info.plist location to the Build Phase's Input Files field:
+   $(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)
