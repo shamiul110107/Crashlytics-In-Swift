@@ -1,6 +1,6 @@
 # Crashlytics-In-Swift
 
-Add following dependencies to pod and install
+# Add following dependencies to pod and install
 target 'CrashLyticsSwift' do
 
   use_frameworks!
